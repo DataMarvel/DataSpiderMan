@@ -4,7 +4,6 @@ Created on 2018年11月15日
 @author: Leo
 @file: BaseSpider
 """
-
 # 项目内部库
 from DataVision.LoggerHandler.logger import VisionLogger
 
