@@ -8,7 +8,7 @@ Created on 2018年11月15日
 from DataVision.LoggerHandler.logger import VisionLogger
 
 # 日志路径
-LOGGER_PATH = '../../DataVision/LoggerConfig/logger_config.yaml'
+LOGGER_PATH = '../DataVision/LoggerConfig/logger_config.yaml'
 
 
 class BaseSpider(object):
@@ -25,7 +25,6 @@ class BaseSpider(object):
         :param timeout: 超时秒数
         :param retry_num: 重试次数
         """
-
         # 日志
         self._logger = VisionLogger(LOGGER_PATH)
 
